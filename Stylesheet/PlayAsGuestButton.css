@@ -1,0 +1,101 @@
+.container-Play-as-guest{
+    border: 1px solid black;
+    width: 200px;
+    margin: auto;
+    padding: 100px;
+    padding-top: 20px;
+    padding-left: 60px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.PressButton{
+    color: white;
+    background-color: #385998;
+    font-size: 20px;
+    line-height: 2px;
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+}
+.PressButton:hover{
+    background: linear-gradient(to right, #000046, #1cb5e0);
+    color:white;
+    font-size: 20px;
+    line-height: 1px;
+    border-radius: 50px;
+    display: block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 5px #999;
+    margin: auto;
+    width: 250px;
+    height: 60px;
+    font-family: cursive;
+}
+.PressButton:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.Choose{
+    padding-bottom: 0px;
+    width: 250px;
+    display: flex;
+}
+.ChooseLogin{
+    width: 125px;
+    height: 40px;
+}
+.ChooseLogin:hover{
+    background: linear-gradient(to right, #d0dfdf ,#0fc2c2) ;
+    color: white;
+    background-color: seashell;
+    font-size: 20px;
+    line-height: 1;
+    white-space: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 2px #999;
+    margin: auto;
+    font-family: cursive;
+}
+.ChooseLogin:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.ChoosePlaynow{
+    width: 125px;
+    height: 40px;
+}
+.ChoosePlaynow:hover{
+    background: linear-gradient(to right, #d0dfdf ,#0fc2c2) ;
+    color: white;
+    background-color: seashell;
+    font-size: 16px;
+    line-height: 1;
+    white-space: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 2px #999;
+    margin: auto;
+    font-family: cursive;
+}
+.ChoosePlaynow:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+a{
+    text-decoration: unset;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    height: 40px;
+}
+.Input-Infor{
+    padding-top: 40px;
+}
