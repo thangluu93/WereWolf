@@ -1,12 +1,4 @@
-<html>
-
-<head>
-    <title>WereWolf</title>
-    <link rel="stylesheet" href="../Stylesheet/Footer.css">
-</head>
-
-<body>
-    <footer class="FooterLayout">
+ <footer class="FooterLayout">
         <div>
             <h1 style="padding: 50;">
                 <div class="content">
@@ -25,7 +17,3 @@
         </div>
 
     </footer>
-
-</body>
-
-</html>
