@@ -1,0 +1,19 @@
+ <footer class="FooterLayout">
+        <div>
+            <h1 style="padding: 50;">
+                <div class="content">
+                    <div class="visible">
+                        <ul>
+                            <li>WELCOME</li>
+                            <li>TO</li>
+                            <li>WEREWOLF</li>
+                            <li>WEB</li>
+                            <li>ONLINE</li>
+                            <li>GAME</li>
+                        </ul>
+                    </div>
+                </div>
+            </h1>
+        </div>
+
+    </footer>
