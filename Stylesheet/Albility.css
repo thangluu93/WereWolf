@@ -1,0 +1,17 @@
+th{
+    border: 1px solid black;
+    display: inline-block;
+    text-align: left;
+}
+img{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+p{
+    width: 650px;
+    height: 200px;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}

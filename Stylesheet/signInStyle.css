@@ -1,15 +1,15 @@
-.containerBody{
+.ContainerBody{
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-#containerBody1{
+#ContainerBody1{
   width: 100%;
 
 }
 
-#content1{
+#Content1{
 
     display: flex;
     flex-direction: column;
@@ -17,19 +17,19 @@
 
 }
 
-.content{
+.Content{
     height: 90%;
     padding: 5% 7% 7% 7%;
   
  
 }
 
-.border{
-    width: 50%;
-    height: 80%;
+.Border{
+    width: 30vw;
+    height: 85vh;
 }
 
-#border1{
+#Border1{
     border: 1px solid black;
     border-radius: 10px;   ;
    
@@ -39,7 +39,7 @@
 
 }
 
-.socialSignIn a{
+.SocialSignIn a{
     margin: 2%;
     width: 92%;
     height: 2.5rem;
@@ -49,26 +49,26 @@
     font-size: 15px;
 }
 
-.socialSignIn{
+.SocialSignIn{
     margin-top: 2rem;
 }
 
-#socialSignIn1{
+#SocialSignIn1{
     display: flex;
     flex-direction: column;
 }
 
-.googleSignIn,.facebookSignIn,.twitterSignIn{
+.GoogleSignIn,.FacebookSignIn{
     border: 2px;
     border-style: solid;
     border-radius: 100px;
 } 
 
-.subHead{
-    margin: 10px 0 0 0;
+.SubHead{
+    margin: 5px 0 0 0;
 }
 
-.heading{
+.Heading{
     margin: 0;
 }
 
@@ -78,7 +78,7 @@ p {
 
 h1{
     font-family: adobe-clean,"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-    font-size: 32px;
+    font-size: 170%;
 }
 
 span{
@@ -92,7 +92,7 @@ a{
 
 
 
-.emailContinueBtn{
+.ContinueBtn{
     display: flex;
     box-shadow: none;
     background-color: #1da1f2;
@@ -109,32 +109,33 @@ a{
     font-weight: 700;
     line-height: 0;
     justify-content: center;
+    margin-top: 0.75rem;
 }
 
-.emailContinue{
+.Continue{
     display: flex;
     align-items: flex-end;
     flex-direction: column;
 }
 
-.googleSignIn{
+.GoogleSignIn{
     border-color: #eaeaea;
     color: #505050;
 }
 
-.facebookSignIn{
+.FacebookSignIn{
     border-color:#3b5998;
     background-color: #3b5998;
     color: white;
 }
 
-.twitterSignIn{
+.TwitterSignIn{
     color: white;
     border-color: #1da1f2;
     background-color: #1da1f2;
 }
 
-.line {
+.Line {
     display: flex;
     z-index: 1;
     position: relative;
@@ -145,7 +146,7 @@ a{
     font-family: adobe-clean,"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif
 }
 
-.line:before {
+.Line:before {
     width: 40px;
     height: 10px;
     background-color: white;
@@ -160,7 +161,7 @@ a{
     content: '';
 }
 
-.line:after {
+.Line:after {
     border-bottom: 1px solid #a4a5ac;
     display: block;
     position: absolute;
@@ -172,13 +173,15 @@ a{
 
 
 
-.inputBox{
+.InputBox{
     position: relative;
+    height: 2rem;
+    margin: 1rem 0;
 }
 
 
 
-.inputBox label{
+.InputBox label{
     position: absolute;
     top: 0;
     left: 0;
@@ -189,26 +192,25 @@ a{
     transition: .5s; 
 }
 
-.box {
-    position: flex;
+.Box {
+    position: relative;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-  
+    align-items: stretch;
     width: 100%;
     padding: 2px;
-
     box-sizing: border-box;
-
     border: none;
+    margin: 1rem 0 2rem 0;
 }
 
 
-.box .inputBox {
+.Box .InputBox {
     position: relative;
 }
 
-.box .inputBox input {
+.Box .InputBox input {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -220,7 +222,7 @@ a{
     background: transparent;
 }
 
-.box .inputBox label {
+.Box .InputBox label {
     position: absolute;
     top: 0;
     left: 0;
@@ -231,11 +233,22 @@ a{
     transition: .5s; 
 }
 
-.box .inputBox input:valid ~ label, .box .inputBox input:focus ~ label
+.Box .InputBox input:valid ~ label, .Box .InputBox input:focus ~ label
  {
     top: -20px;
     left: 0;
     color: red;
-    font-size: 12px;
+    font-size: 15px;
 }
 
+.GoogleIconSvg{
+    height: 1.5rem;
+    width: 12%;
+    margin: 3px;
+}
+
+.FacebookIconSvg{
+    height: 1.5rem;
+    width: 10%;
+    margin: 3px;
+}

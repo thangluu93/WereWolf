@@ -1,0 +1,29 @@
+.BodyContainer{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Header{
+    background-color: black;
+    width: 100%;
+    height: 10vh; /*change to fit your content*/
+}
+
+.Footer{
+    background-color: black;
+    width: 100%;
+    height: 10vh; /*change to fit your content*/ 
+}
+
+.Center{
+    display: flex;
+    justify-content: center;
+ 
+
+}
+
+body{
+    margin: 0;
+}

@@ -1,0 +1,59 @@
+.ContainerBox{
+    border: 1px solid black;
+    width: 200px;
+    margin: auto;
+    padding: 100px;
+    padding-top: 20px;
+    padding-left: 60px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+
+    align-items: center;
+    align-content: center;
+}
+Button{
+    height: 40px;
+    width: 250px;
+}
+.ButtonPlay{
+    text-align: center;
+}
+.ButtonPlay:hover{
+    background: repeating-linear-gradient( to right , red,yellow);
+    color: white;
+    font-size: 20px;
+    line-height: 1px;
+    white-space: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 2px #999;
+    font-family: cursive;
+}
+.ButtonPlay:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.MoreInfor{
+    text-align: center;
+}
+.MoreInfor:hover{
+    background: repeating-linear-gradient( to right , red,yellow);
+    color: white;
+    font-size: 20px;
+    line-height: 1px;
+    white-space: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 2px #999;
+    font-family: cursive;
+}
+.MoreInfor:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.MoreInfor{
+    text-align: center;
+}
+a{
+    text-decoration: unset;
+}

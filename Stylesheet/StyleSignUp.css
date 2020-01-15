@@ -1,0 +1,112 @@
+.container-signup{
+    border: 1px solid black;
+    width: 200px;
+    margin: auto;
+    padding: 100px;
+    padding-top: 20px;
+    padding-left: 60px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.SignupButton{
+    color: white;
+    background-color: #385998;
+    font-size: 20px;
+    line-height: 1;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+}
+.SignupButton:hover{
+    background: linear-gradient(to right, #000046, #1cb5e0);
+    color: white;
+    background-color: #385998;
+    font-size: 20px;
+    line-height: 1;
+    border-radius: 50px;
+    white-space: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 2px #999;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    font-family: cursive;
+}
+.SignupButton:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+input{
+    width: 250px;
+    height: 30px;
+
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    height: 40px;
+
+    border: none;
+    border-bottom: 1px solid black;
+}
+#Check{
+    width: unset;
+}
+.Checkbox2{
+    width: -2px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.Choose{
+    padding-bottom: 40px;
+    width: 250px;
+    display: flex;
+}
+.ChooseLogin{
+    width: 125px;
+    height: 40px;
+}
+.ChooseLogin:hover{
+    background: linear-gradient(to right, #d0dfdf ,#0fc2c2) ;
+    color: white;
+    font-size: 20px;
+    line-height: 1;
+    white-space: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 2px #999;
+    margin: auto;
+    font-family: cursive;
+}
+.ChooseLogin:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.ChoosePlaynow{
+    width: 125px;
+    height: 40px;
+}
+.ChoosePlaynow:hover{
+    background: linear-gradient(to right, #d0dfdf ,#0fc2c2) ;
+    color: white;
+    background-color: seashell;
+    font-size: 16px;
+    line-height: 1;
+    white-space: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 2px #999;
+    margin: auto;
+    font-family: cursive;
+}
+.ChoosePlaynow:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+a{
+    text-decoration: unset;
+}
+.Press2{
+    color: white;
+}
