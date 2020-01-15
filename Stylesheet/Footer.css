@@ -1,0 +1,138 @@
+body {
+    margin: auto;
+}
+
+.FooterLayout {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.FooterBoxBorder {
+    margin-left: 80px;
+    margin-right: 80px;
+    border-top: 5px double gray;
+    box-shadow: greenyellow;
+    height: 100px;
+}
+
+p {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0));
+    background-size: 80%;
+    animation: animate 6s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    50% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
+
+.SvgWrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    width: 320px;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+.Shape {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    fill: transparent;
+    stroke: #000000;
+    border-bottom: 5px solid black;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.Text {
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 8px;
+    color: rgb(0, 0, 0);
+    top: -48px;
+    position: relative;
+}
+
+.SvgWrapper:hover .shape {
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+}
+
+.Footer {
+    background: rgb(20, 20, 20);
+    text-align: center;
+    overflow: hidden;
+}
+
+.IconYT {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(245, 0, 0);
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    margin-left: 10px;
+}
+
+.IconYT:hover {
+    background-color: white;
+    cursor: pointer;
+    color: rgb(253, 0, 0);
+    transition: 2s;
+}
+
+.IconTW {
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.IconTW:hover {
+    background-color: white;
+    cursor: pointer;
+    color: blue;
+    transition: 2s;
+}
+
+.IconFB {
+    width: 25px;
+    height: 25px;
+    background-color: navy;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    margin-right: 10px;
+}
+
+.IconFB:hover {
+    background-color: white;
+    cursor: pointer;
+    color: navy;
+    transition: 2s;
+}

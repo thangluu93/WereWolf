@@ -1,0 +1,258 @@
+.BodyContainer {
+    font-weight: 900;
+    /* font-style: italic; */
+    /* height: 110%; */
+    background-image: url("../Image/");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    border-style: outset;
+    border: none;
+    background-color: black;
+    opacity: 0.7;
+}
+
+#IconBar img {
+    width: 100x;
+    height: 100px;
+    margin-right: 0px;
+}
+
+#IconBar {
+    font-family: 'Shadows Into Light', cursive;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+#IconUser {
+    display: inline-flex;
+}
+
+#IconUser img {
+    width: 100x;
+    height: 100px;
+    margin-right: 0px;
+}
+
+@keyframes my {
+    0% {
+        color: rgb(0, 0, 0);
+    }
+    50% {
+        color: rgb(255, 255, 255);
+    }
+    100% {
+        color: rgb(0, 0, 0);
+    }
+}
+
+ul li {
+    line-height: 40px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    animation: 20s linear 0s normal none infinite change;
+    -webkit-animation: 20s linear 0s normal none infinite change;
+    -moz-animation: 20s linear 0s normal none infinite change;
+    -o-animation: 20s linear 0s normal none infinite change;
+}
+
+.Content {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    animation: my 1800ms infinite;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    animation: my 1800ms infinite;
+    margin-top: 0px;
+    background-color: white;
+    opacity: 0.6;
+}
+
+.Visible {
+    float: center;
+    font-weight: 400;
+    overflow: hidden;
+    height: 40px;
+    margin-left: -65px;
+    margin-top: 0px;
+}
+
+@-webkit-keyframes change {
+    0% {
+        margin-top: 0;
+    }
+    4% {
+        margin-top: 0;
+    }
+    8% {
+        margin-top: 0;
+    }
+    12% {
+        margin-top: -40px;
+    }
+    16% {
+        margin-top: -40px;
+    }
+    20% {
+        margin-top: -80px;
+    }
+    24% {
+        margin-top: -80px;
+    }
+    28% {
+        margin-top: -120px;
+    }
+    32% {
+        margin-top: -120px;
+    }
+    36% {
+        margin-top: -160px;
+    }
+    40% {
+        margin-top: -160px;
+    }
+    44% {
+        margin-top: -200px;
+    }
+    48% {
+        margin-top: -200px;
+    }
+    52% {
+        margin-top: -240px;
+    }
+    56% {
+        margin-top: -240px;
+    }
+    60% {
+        margin-top: -200px;
+    }
+    64% {
+        margin-top: -200px;
+    }
+    68% {
+        margin-top: -160px;
+    }
+    72% {
+        margin-top: -160px;
+    }
+    76% {
+        margin-top: -120px;
+    }
+    80% {
+        margin-top: -120px;
+    }
+    84% {
+        margin-top: -80px;
+    }
+    88% {
+        margin-top: -80px;
+    }
+    92% {
+        margin-top: -40px;
+    }
+    96% {
+        margin-top: -40px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+@keyframes change {
+    0% {
+        margin-top: 0;
+    }
+    4% {
+        margin-top: 0;
+    }
+    8% {
+        margin-top: 0;
+    }
+    12% {
+        margin-top: -40px;
+    }
+    16% {
+        margin-top: -40px;
+    }
+    20% {
+        margin-top: -80px;
+    }
+    24% {
+        margin-top: -80px;
+    }
+    28% {
+        margin-top: -120px;
+    }
+    32% {
+        margin-top: -120px;
+    }
+    36% {
+        margin-top: -160px;
+    }
+    40% {
+        margin-top: -160px;
+    }
+    44% {
+        margin-top: -200px;
+    }
+    48% {
+        margin-top: -200px;
+    }
+    52% {
+        margin-top: -240px;
+    }
+    56% {
+        margin-top: -240px;
+    }
+    60% {
+        margin-top: -200px;
+    }
+    64% {
+        margin-top: -200px;
+    }
+    68% {
+        margin-top: -160px;
+    }
+    72% {
+        margin-top: -160px;
+    }
+    76% {
+        margin-top: -120px;
+    }
+    80% {
+        margin-top: -120px;
+    }
+    84% {
+        margin-top: -80px;
+    }
+    88% {
+        margin-top: -80px;
+    }
+    92% {
+        margin-top: -40px;
+    }
+    96% {
+        margin-top: -40px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
