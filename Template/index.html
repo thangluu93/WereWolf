@@ -1,92 +1,191 @@
 <html>
-    <head>
 
-        <title>WereWolf</title>
-        <link rel="stylesheet" href="../Stylesheet/Style.css"> <!--css for structure-->
-        <link rel="stylesheet" href="../Stylesheet/SignInStyle.css"> <!--for SignIn form-->
-        <link rel="stylesheet" href="../Stylesheet/Footer.css">
-        <link rel="stylesheet" href="../Stylesheet/Header.css   ">
-    </head>
+<head>
 
-    <body>
-        <div class="BodyContainer">
-            <div class="Header">
+    <title>WereWolf</title>
+    <link rel="stylesheet" href="../Stylesheet/Structure.css">
+    <!--css for structure-->
+    <link rel="stylesheet" href="../Stylesheet/SignInStyle.css">
+    <!--for SignIn form-->
+    <link rel="stylesheet" href="../Stylesheet/Footer.css">
+    <link rel="stylesheet" href="../Stylesheet/Header.css   ">
+</head>
 
-            </div>
-            <div class="Center">
-                <div class="Container" id="Container1">
-                    <div class="containerBody" id="containerBody1">
-                        <div class="Border" id="Border1">
-                            <div class="Content" id="Content1">
-                                <div class="ContentHeader">
-                                    <h1 class="Heading">Sign In</h1>
-                                    <p class="SubHead">New user? <a href="">Create an account?</a></p>
-                                </div>
-                                <div>
-                                    <div class="FieldLayout">
-                                        <div class="Box">
-                                            <div class="InputBox">
-                                                <input type="text" name="" required="">
-                                                <label>Username</label>
-                                            </div>
-                                            <div class="InputBox">
-                                                <input type="password" name="" required="">
-                                                <label>Password</label>
-                                            </div>
-            
-                                            <div class="Continue">
-                                                <button class="ContinueBtn ">
-                                                    <span>Continue</span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ContentFooter">
-                                    <strong class="Line">Or</strong>
-                                    <div class="SocialSignIn" id="SocialSignIn1">
-                                        <a href="" class="GoogleSignIn">
-                                            <svg viewBox="0 0 1152 1152" focusable="false" aria-hidden="true" role="img"
-                                                class="GoogleIconSvg">
-                                                <path
-                                                    d="M1055.994 594.42a559.973 559.973 0 0 0-8.86-99.684h-458.99V683.25h262.28c-11.298 60.918-45.633 112.532-97.248 147.089v122.279h157.501c92.152-84.842 145.317-209.78 145.317-358.198z"
-                                                    fill="#4285f4"></path>
-                                                <path
-                                                    d="M588.144 1070.688c131.583 0 241.9-43.64 322.533-118.07l-157.5-122.28c-43.64 29.241-99.463 46.52-165.033 46.52-126.931 0-234.368-85.728-272.691-200.919H152.636v126.267c80.19 159.273 245 268.482 435.508 268.482z"
-                                                    fill="#34a853"></path>
-                                                <path
-                                                    d="M315.453 675.94a288.113 288.113 0 0 1 0-185.191V364.482H152.636a487.96 487.96 0 0 0 0 437.724z"
-                                                    fill="#fbbc05"></path>
-                                                <path
-                                                    d="M588.144 289.83c71.551 0 135.792 24.589 186.298 72.88l139.78-139.779C829.821 144.291 719.504 96 588.143 96c-190.507 0-355.318 109.21-435.508 268.482L315.453 490.75c38.323-115.19 145.76-200.919 272.691-200.919z"
-                                                    fill="#ea4335"></path>
-                                            </svg>
-                                            <span>Continue with Google</span>
-                                        </a>
-                                        <a href="" class="FacebookSignIn" class="FacebookIconSvg">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                version="1.1" id="Capa_1" x="0px" y="0px" 
-                                                viewBox="0 0 60.734 60.733"
-                                                style="enable-background:new 0 0 60.734 60.733;fill: white;" xml:space="preserve" class="facebookIconSvg">
-                                                    <path
-                                                        d="M57.378,0.001H3.352C1.502,0.001,0,1.5,0,3.353v54.026c0,1.853,1.502,3.354,3.352,3.354h29.086V37.214h-7.914v-9.167h7.914   v-6.76c0-7.843,4.789-12.116,11.787-12.116c3.355,0,6.232,0.251,7.071,0.36v8.198l-4.854,0.002c-3.805,0-4.539,1.809-4.539,4.462   v5.851h9.078l-1.187,9.166h-7.892v23.52h15.475c1.852,0,3.355-1.503,3.355-3.351V3.351C60.731,1.5,59.23,0.001,57.378,0.001z" />
-                                            </svg>
-            
-                                            <span>Continue with Facebook</span>
-            
-                                        </a>
-            
-                                    </div>
-                                </div>
+<body>
+    <div class="BodyContainer">
+        <div class="Header">
+            <header>
+                <div class="NavBar">
+
+                    <div class="IconBar">
+                        <div class="LogoHeader">
+
+
+                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="35%" height="80%" viewBox="0 0 540.000000 540.000000" preserveAspectRatio="xMidYMid meet">
+
+                                <g transform="translate(0.000000,540.000000) scale(0.100000,-0.100000)" stroke="none">
+                                    <path d="M2450 5389 c-524 -52 -1034 -260 -1440 -587 -125 -101 -316 -292
+-416 -418 -402 -502 -610 -1123 -590 -1759 18 -607 210 -1131 593 -1624 7 -9
+17 15 88 220 40 118 80 229 88 247 13 32 12 37 -59 180 -117 238 -192 463
+-235 707 -19 109 -23 165 -23 345 0 243 13 348 70 568 139 537 478 1006 949
+1314 206 136 420 231 657 292 210 55 333 70 568 70 235 0 358 -15 570 -70 296
+-77 579 -219 824 -411 91 -72 297 -278 369 -369 243 -309 403 -679 464 -1074
+24 -159 24 -492 -1 -645 -104 -651 -456 -1199 -998 -1558 -94 -63 -282 -164
+-376 -203 -22 -9 -22 -10 29 -94 61 -101 121 -220 138 -272 7 -21 18 -38 25
+-38 21 0 278 134 384 200 234 147 505 389 674 601 170 213 344 520 433 763
+133 363 188 777 155 1156 -84 942 -649 1768 -1495 2185 -293 145 -547 223
+-860 265 -112 15 -471 21 -585 9z" />
+                                    <path d="M3732 4019 c-24 -12 -68 -50 -99 -84 -51 -58 -59 -64 -107 -70 -131
+-18 -278 -84 -384 -171 -37 -31 -131 -120 -209 -197 l-142 -140 -53 18 c-68
+23 -242 32 -317 16 -141 -30 -263 -83 -360 -154 -62 -46 -190 -171 -356 -350
+l-110 -117 -100 11 c-174 19 -347 -1 -470 -56 -87 -38 -274 -173 -281 -202 -4
+-14 -3 -28 2 -33 5 -5 61 -31 124 -57 157 -66 267 -134 361 -221 l79 -73 -49
+-97 c-183 -366 -414 -996 -535 -1462 -32 -122 -96 -428 -109 -523 l-6 -37
+1474 0 1474 0 -20 72 c-11 40 -44 123 -73 183 -48 101 -86 167 -252 435 -119
+194 -151 327 -103 426 26 55 163 186 409 393 273 229 420 364 525 481 275 309
+378 557 297 716 -38 75 -34 76 -193 -68 -266 -242 -402 -354 -476 -392 -31
+-15 -33 -15 -52 5 -61 66 -13 276 98 424 20 27 49 75 64 105 23 49 125 180
+146 188 4 1 51 -36 106 -83 54 -47 100 -83 103 -80 9 9 -39 192 -66 250 l-28
+59 43 75 c92 161 121 339 72 439 -30 59 -78 92 -133 92 l-41 0 0 78 c0 70 -3
+84 -30 128 -55 88 -138 115 -223 73z" />
+                                </g>
+                            </svg>
+                            <p style="font-family: 'IM Fell Great Primer', serif;;">WereWolf</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- <div class="Content">
+                    <div class="Visible">
+                        <ul>
+                            <li>WELCOME</li>
+                            <li>TO</li>
+                            <li>WEREWOLF</li>
+                            <li>WEB</li>
+                            <li>ONLINE</li>
+                            <li>GAME1</li>
+                        </ul>
+                    </div>
+                </div> -->
+
+            </header>
+        </div>
+        <div class="Center">
+            <!-- <div class="Container" id="Container1">
+                <div class="containerBody" id="containerBody1"> -->
+            <div class="Border" id="Border1">
+                <div class="BorderContent" id="BorderContent1">
+                    <div class="ContentHeader">
+                        <h1 class="Heading">Sign In</h1>
+
+                    </div>
+
+                    <div class="FieldLayout">
+                        <div class="Box">
+                            <div class="InputBox">
+                                <input type="text" name="" required="">
+                                <label>Username</label>
                             </div>
-            
+                            <div class="InputBox">
+                                <input type="password" name="" required="">
+                                <label>Password</label>
+                            </div>
+
+                            <div class="Continue">
+                                <p class="SubHead">New user? <a href="SignUp.html" style="    text-decoration: none; color: #D93B58;">Create an account?</a></p>
+                                <button class="ContinueBtn ">
+                                    <span>Continue</span>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- </div>
+                            </div> -->
+                        <div class="ContentFooter">
+                            <strong class="Line">Or</strong>
+                            <div class="SocialSignIn" id="SocialSignIn1">
+                                <a href="" class="GoogleSignIn">
+                                    <svg viewBox="0 0 1152 1152" focusable="false" aria-hidden="true" role="img" class="GoogleIconSvg">
+                                        <path
+                                            d="M1055.994 594.42a559.973 559.973 0 0 0-8.86-99.684h-458.99V683.25h262.28c-11.298 60.918-45.633 112.532-97.248 147.089v122.279h157.501c92.152-84.842 145.317-209.78 145.317-358.198z"
+                                            fill="white"></path>
+                                        <path
+                                            d="M588.144 1070.688c131.583 0 241.9-43.64 322.533-118.07l-157.5-122.28c-43.64 29.241-99.463 46.52-165.033 46.52-126.931 0-234.368-85.728-272.691-200.919H152.636v126.267c80.19 159.273 245 268.482 435.508 268.482z"
+                                            fill="white"></path>
+                                        <path
+                                            d="M315.453 675.94a288.113 288.113 0 0 1 0-185.191V364.482H152.636a487.96 487.96 0 0 0 0 437.724z"
+                                            fill="white"></path>
+                                        <path
+                                            d="M588.144 289.83c71.551 0 135.792 24.589 186.298 72.88l139.78-139.779C829.821 144.291 719.504 96 588.143 96c-190.507 0-355.318 109.21-435.508 268.482L315.453 490.75c38.323-115.19 145.76-200.919 272.691-200.919z"
+                                            fill="white"></path>
+                                    </svg>
+                                    <span>Continue with Google</span>
+                                </a>
+                                <a href="" class="FacebookSignIn" class="FacebookIconSvg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.734 60.733" style="enable-background:new 0 0 60.734 60.733;fill: white;" xml:space="preserve" class="facebookIconSvg">
+                                        <path
+                                            d="M57.378,0.001H3.352C1.502,0.001,0,1.5,0,3.353v54.026c0,1.853,1.502,3.354,3.352,3.354h29.086V37.214h-7.914v-9.167h7.914   v-6.76c0-7.843,4.789-12.116,11.787-12.116c3.355,0,6.232,0.251,7.071,0.36v8.198l-4.854,0.002c-3.805,0-4.539,1.809-4.539,4.462   v5.851h9.078l-1.187,9.166h-7.892v23.52h15.475c1.852,0,3.355-1.503,3.355-3.351V3.351C60.731,1.5,59.23,0.001,57.378,0.001z" />
+                                    </svg>
+
+                                    <span>Continue with Facebook</span>
+
+                                </a>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
-            <div class="Footer">
-                
+        </div>
+        <div class="Footer">
+            <!-- <footer> -->
+            <div>
+                <div class="FooterBoxBorder">
+
+                    <div class="SvgWrapper">
+                        <div class="NeonButton">
+                            <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="Shape" height="60" width="320" />
+
+                            <div class="Text">Contact Us</div>
+
+
+                        </svg>
+                        </div>
+                    </div>
+                    <div class="FooterLayout">
+                        <a href="https://www.facebook.com/werewolfonlinevietnam/" target="_blank">
+                            <svg class="IconFB" aria-hidden="true" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 550" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank">
+                            <svg class="IconTW" aria-hidden="true" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 592 572" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCWNdHZoHAOulRXjbrg70ubw" target="_blank">
+                            <svg class="IconYT" aria-hidden="true" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 532" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                                </path>
+                            </svg>
+                        </a>
+
+                    </div>
+
+                    <center>
+                        <p class="TextAni">&copy COPYRIGHT BY INTERNSHIP ITSS 2020</p>
+                    </center>
+                </div>
+                <!-- </footer> -->
             </div>
         </div>
-    </body>
+</body>
+
+
 </html>

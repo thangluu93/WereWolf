@@ -1,4 +1,4 @@
-.ContainerBody{
+/* .ContainerBody{
     margin: 0;
     padding: 0;
     width: 100%;
@@ -7,6 +7,13 @@
 #ContainerBody1{
   width: 100%;
 
+} */
+
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400,400i&display=swap');
+
+.Center{
+    font-family: 'IM Fell Great Primer', serif;
+    color: #bdbfc2;
 }
 
 #Content1{
@@ -17,7 +24,7 @@
 
 }
 
-.Content{
+.BorderContent{
     height: 90%;
     padding: 5% 7% 7% 7%;
   
@@ -25,17 +32,18 @@
 }
 
 .Border{
-    width: 30vw;
-    height: 85vh;
+    width: 30%;
+    height: 80vh;
 }
 
 #Border1{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;   ;
    
     margin: 10% auto;
     justify-content: center;
     align-items: center;
+    background-color: rgba(53, 53, 53, 0.38);
 
 }
 
@@ -51,11 +59,14 @@
 
 .SocialSignIn{
     margin-top: 2rem;
+    height: 42%;
+   
 }
 
 #SocialSignIn1{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .GoogleSignIn,.FacebookSignIn{
@@ -65,14 +76,14 @@
 } 
 
 .SubHead{
-    margin: 5px 0 0 0;
+    margin:  0;
 }
 
 .Heading{
     margin: 0;
 }
 
-p {
+/* p {
     font-family: adobe-clean,"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 }
 
@@ -84,11 +95,11 @@ h1{
 span{
     font-family: adobe-clean,"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 }
-
+*/
 a{
     text-decoration: none;
 }
-
+ 
 
 
 
@@ -96,11 +107,9 @@ a{
     display: flex;
     box-shadow: none;
     background-color: #1da1f2;
-    color: white;
+    color: whitesmoke;
     border: none;
     outline: none;   
-    border-width: 2px;
-    border-style: solid;
     border-radius: 16px;
     height: 32px;
     min-width: 72px;
@@ -109,18 +118,22 @@ a{
     font-weight: 700;
     line-height: 0;
     justify-content: center;
-    margin-top: 0.75rem;
+    
 }
 
 .Continue{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 4%;
 }
 
 .GoogleSignIn{
-    border-color: #eaeaea;
-    color: #505050;
+    border:none;
+    color: white;
+    background-color: #ea4335;
 }
 
 .FacebookSignIn{
@@ -140,16 +153,17 @@ a{
     z-index: 1;
     position: relative;
     width: 100%;
-    color: black;
+    color: white;
     justify-content: center;
     font-weight: 300;
-    font-family: adobe-clean,"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif
+    font-family: adobe-clean,"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background-color: rgba(53, 53, 53, 0);
 }
 
 .Line:before {
     width: 40px;
     height: 10px;
-    background-color: white;
+    background-color: rgb(53, 53, 53);
     margin-top: -5px;
     margin-left: -20px;
     margin-right: 0px;
@@ -214,10 +228,10 @@ a{
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
-    color: black;
+    color: white;
     margin-bottom: 30px;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid whitesmoke;
     outline: none;
     background: transparent;
 }
@@ -228,7 +242,7 @@ a{
     left: 0;
     padding: 10px 0;
     font-size: 16px;
-    color: black;
+    color: #bdbfc2;
     pointer-events: none;
     transition: .5s; 
 }
@@ -237,9 +251,11 @@ a{
  {
     top: -20px;
     left: 0;
-    color: red;
+    color: #1da1f2;
     font-size: 15px;
 }
+
+
 
 .GoogleIconSvg{
     height: 1.5rem;
@@ -251,4 +267,15 @@ a{
     height: 1.5rem;
     width: 10%;
     margin: 3px;
+}
+
+.FieldLayout{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ContentFooter{
+    height: 50%;
 }

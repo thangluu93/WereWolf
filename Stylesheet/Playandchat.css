@@ -1,0 +1,45 @@
+.ContainerOfPlay{
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.BodyContainer{
+    width: 100vw;
+    height: 100vh;
+}
+.Boxplay{
+    border: 1px solid black;
+    width: 70vw;
+    height: 100%;
+}
+.Showtext{
+    border: 1px solid black;
+    width: 30vw;
+    height: 90%;
+}
+.Inputtext{
+    border: 1px solid black;
+    width: 30vw;
+    height: 9.5%;
+}
+.TEXT{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 80%;
+    height: 90%;
+    font-size: 20px;
+    padding-left: 10px;
+    border: solid white;
+}
+.SendButton{
+    padding-bottom: ;
+}
+.SendButton:hover{
+    background: white;
+}
+.SendButton:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

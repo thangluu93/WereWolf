@@ -1,12 +1,15 @@
-.container-signup{
-    border: 1px solid black;
-    width: 200px;
+.ContainerSignup{
+    width: 30%;
     margin: auto;
-    padding: 100px;
+    padding: 3%;
     padding-top: 20px;
     padding-left: 60px;
-    border-radius: 10px;
     padding-bottom: 30px;
+    height: 60vh;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(53, 53, 53, 0.38);
 }
 .SignupButton{
     color: white;
@@ -38,17 +41,17 @@
     transform: translateY(4px);
 }
 input{
-    width: 250px;
-    height: 30px;
-
+    width: 100%;
+    height: 40px;
     outline: none;
     padding-left: 10px;
     margin-bottom: 15px;
-    height: 40px;
-
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid whitesmoke;
+    background-color: transparent;
+    color: whitesmoke;
 }
+
 #Check{
     width: unset;
 }
@@ -59,13 +62,16 @@ input{
     align-content: center;
 }
 .Choose{
-    padding-bottom: 40px;
-    width: 250px;
+    padding-bottom: 2%;
+    width: 100%;
     display: flex;
+    margin-top: 6%;
+    height: 47px;
+    margin-bottom: 6%;
 }
 .ChooseLogin{
-    width: 125px;
-    height: 40px;
+    width: 50%;
+    height: 100%;
 }
 .ChooseLogin:hover{
     background: linear-gradient(to right, #d0dfdf ,#0fc2c2) ;
@@ -84,8 +90,8 @@ input{
     transform: translateY(4px);
 }
 .ChoosePlaynow{
-    width: 125px;
-    height: 40px;
+    width: 50%;
+    height: 100%;
 }
 .ChoosePlaynow:hover{
     background: linear-gradient(to right, #d0dfdf ,#0fc2c2) ;
@@ -109,4 +115,18 @@ a{
 }
 .Press2{
     color: white;
+}
+
+.Container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Press{
+    margin-top: 9%;
+    justify-content: center;
+    display: flex;
 }
